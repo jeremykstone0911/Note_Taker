@@ -5,7 +5,7 @@ const express = require("express");
 const apiRoutes = require("./routes/apiRoutes");
 const htmlRoutes = require("./routes/htmlRoutes");
 
-const { v1: uuidv1 } = require("uuid");
+// const { v1: uuidv1 } = require("uuid");
 
 // Express creates server and port
 const app = express();
